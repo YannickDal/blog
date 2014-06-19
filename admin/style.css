@@ -1,0 +1,89 @@
+*
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	
+}
+h2{
+	padding 8px 0;
+}
+
+p{
+	padding 5px 0;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+.centre
+{
+	text-align: center;
+}
+
+hr{
+	border-top: dotted 1px gray;
+}
+
+input, textarea{
+	border : solid 1px gray;
+}
+
+form.login {
+	width: 270px;
+	margin: 50px auto 0 auto;
+	background: grey;
+	padding: 10px;
+}
+
+form.add_article {
+	width: 600px;
+	border: solid 1px red;
+}
+
+form fieldset {
+	border: 0;
+}
+	
+form fieldset.actions {
+
+	text-align: right;
+}
+form fieldset.fields div.row {
+	padding: 5px;
+	border: solid 1px red;
+}
+form fieldset.fields div.row label {
+	display: inline-block;
+	width: 120px;
+}
+
+form.add_article fieldset.fields div.row label {
+	display: inline-block;
+	width: 60px;
+}
+
+header.head div.title {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+header.head nav.menu ul {
+	list-style: none;
+}
+
+header.head nav.menu ul li {
+	display: inline-block;
+}
+
+table.articles td, table.articles th
+{
+	border: solid 1px gray;
+}
