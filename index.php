@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html>
@@ -14,6 +13,7 @@
 
 <body>
 <a href="cv.htm">CV</a>
+<a href="admin">Administration</a>
 </body>
 
 </html>
