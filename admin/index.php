@@ -6,5 +6,5 @@
 	include_once('includes/header.php');
 ?>
 	Mon Administration
-	<br />Bonjour&nbsp;<?php echo $_SESSION['user']; ?>
+	<br />Bonjour&nbsp;<?php echo $_SESSION['user']['username']; ?>
 <?php include_once('includes/footer.php'); ?>
